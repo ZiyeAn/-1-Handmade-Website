@@ -1,0 +1,28 @@
+html{
+    background-color:#8f1614;
+}
+p{
+    margin: 3em;
+    color: #d0d8b6;
+    font-family: 'Zeyada', cursive;
+    font-size: 45px;
+    line-height: 2sem;
+}
+
+.picture{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:70%;
+    height:auto
+    
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+} 
+.picture:hover .overlay {
+    opacity: 1;
+}

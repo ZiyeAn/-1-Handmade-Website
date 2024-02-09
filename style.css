@@ -1,0 +1,114 @@
+html {
+    background-color: #8f1614;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 60px;
+    color: transparent;
+    text-shadow: 0 0 8px #d0d8b6;
+}
+.oak {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 8px #d0d8b6;
+    font-family: 'Zeyada', cursive;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.ceiba{
+    position: absolute;
+    top:1000px;
+    margin-left: 10%;
+
+}
+.overlay2 {
+    position: absolute;
+    bottom: 100%;
+    left: 7%;
+    right: 0;
+    background-color: black;
+    opacity: 0.9;
+    overflow: hidden;
+    width: 49.5%;
+    height:0;
+    transition: .5s ease;
+}
+
+.ceiba:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+}
+
+.text-container {
+    font-family: 'Zeyada', cursive;
+    font-size: 1.4em;
+    color:#d0d8b6;
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.text {
+    margin-bottom: 20px; /* Optional: Adjust spacing between paragraphs */
+}
+
+/* When the hyperlink is visited, show the image */
+.trumpetCreeper:visited .overlay {
+    opacity: 1;
+}
+
+
+.trumpetCreeper {
+    position: absolute;
+    top: 33%;
+    left: 12%;
+    transform: rotate(15deg);
+}
+
+.bird {
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    transform: rotate(-10deg);
+}
+
+.spring {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: rotate(-20deg);
+}
+
+.peak {
+    position: absolute;
+    top: 70%;
+    left: 76%;
+    transform: rotate(-30deg);
+}
+
+a:link {
+    font-size: 35px;
+    color: #d0d8b6;
+}
+
+a:hover {
+    color: #cdfeaa;
+}
+
+a:visited {
+    color: #d0d8b6;
+}
