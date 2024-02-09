@@ -51,7 +51,8 @@ h1{
 
 .text-container {
     font-family: 'Zeyada', cursive;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.3em;
     color:#d0d8b6;
     display: flex;
 }
